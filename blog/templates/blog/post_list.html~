@@ -10,7 +10,7 @@
 		<form method="POST">
 
 			{% csrf_token %}
-			<button type="submit" id="del_button" value="{{ post.id }}">Delete</button>
+			<button type="submit" value="{{ post.id }}">Delete</button>
 		</form>
     	</div>
 	{% endfor %}
